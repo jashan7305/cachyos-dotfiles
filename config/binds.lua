@@ -178,3 +178,6 @@ hl.bind(mainMod .. " + ALT + DOWN", hl.dsp.window.move({ into_group = "d" })) --
 
 hl.bind("ALT + TAB", hl.dsp.group.next()) -- next window in group
 hl.bind("ALT + SHIFT + TAB", hl.dsp.group.prev()) -- previous window in group
+
+-- my custom binds
+hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd("alacritty")) -- open alacritty
